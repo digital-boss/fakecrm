@@ -1,0 +1,24 @@
+
+
+- Fake CRM
+	- CRUD on Models
+		- Post
+			- id
+			- title
+			- createTime
+			- tags
+			- autor
+			- content
+		- Comment
+			- id
+			- postId
+			- author
+			- createTime
+			- content
+	- Operations
+		- getAll
+		- get
+		- create
+		- update
+		- delete
+	- Handle [SIGTERM, SIGINT, SIGBREAK](https://nodejs.org/api/process.html)
