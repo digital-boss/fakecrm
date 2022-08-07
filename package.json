@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node src/server.js",
     "gen": "node data/data-gen.js",
+    "build:docker": "docker build . -t maestrow/fakecrm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
